@@ -1,5 +1,5 @@
 <?php
-include_once ('zip_lookup.php');
+include_once ('../zip_lookup.php');
 
 // Define zip
 $zip = ($_GET['zip'] ? $_GET['zip'] : '');
@@ -25,7 +25,7 @@ $state = $response['state'];
 </head>
 <body>
 <div class="container">
-    <h1>Lookup</h1>
+    <h1>Lookup by Zip</h1>
     <hr>
     <form method="get">
         <div class="form-group">

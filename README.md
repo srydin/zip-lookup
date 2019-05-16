@@ -35,6 +35,12 @@ Be sure to include the file in your form action page:
 include_once('path-to-file/zip_lookup');
 ```
 
+### Example Form
+
+Host and load the `/example/index.php`
+![Example Form](/screenshot.png?raw=true "Example Form")
+
+
 ### Limitations
 
 This is not a small file. If motivated, you could convert the $data array to an SQL (or equivalent) database.
