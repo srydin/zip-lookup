@@ -1,6 +1,6 @@
 # Zip Code Lookup
 
-A simple PHP utility for looking up city and/or state based on zip code. Takes a Zip argument request and returns an array with City and State info.
+A simple PHP utility for looking up city and/or state based on zip code. This included function takes a Zip argument and returns an array with City and State info.
 
 ## Getting Started
 
