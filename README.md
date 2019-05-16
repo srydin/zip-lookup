@@ -37,11 +37,11 @@ include_once('path-to-file/zip_lookup');
 
 ### Example Form
 
-Host and navigate to `/example/index.php`
+To see an example form in action, setup a webhost with this repo and navigate to the location of the included file: `/example/index.php`
 
-Screenshot:
+### Screenshot
+
 ![Example Form](/screenshot-form.png?raw=true "Example Form")
-
 
 ### Limitations
 
