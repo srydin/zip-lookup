@@ -6,9 +6,26 @@ A simple PHP utility for looking up city and/or state based on zip code. Takes a
 
 The primary use case for this utility is form data handling, and removing the need for users to submit city/state info when Zip is sufficient.
 So wherever you're handling the form data, the included file contains a zip_lookup() function that will return an array with city and state data.
+
+For example:
 ```
-// Lookup city/state values
+// lookup city and state
 $response = zip_lookup($zip);
+```
+
+$response is an array that contains both city and state, and looks like this:
+```
+// zip_lookup(90210) would return
+$response = [
+	'city' => 'Beverly Hills',
+	'state => 'CA'
+]
+```
+
+Of course, it's easy to use these values as standalone variables:
+
+```
+// create variables for city and state from the $response array
 $city = $response['city'];
 $state = $response['state'];
 ```
