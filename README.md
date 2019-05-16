@@ -37,8 +37,10 @@ include_once('path-to-file/zip_lookup');
 
 ### Example Form
 
-Host and load the `/example/index.php`
-![Example Form](/screenshot.png?raw=true "Example Form")
+Host and navigate to `/example/index.php`
+
+Screenshot:
+![Example Form](/screenshot-form.png?raw=true "Example Form")
 
 
 ### Limitations
