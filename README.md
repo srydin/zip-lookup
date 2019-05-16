@@ -13,7 +13,7 @@ For example:
 $response = zip_lookup($zip);
 ```
 
-$response is an array that contains both city and state, and looks like this:
+The zip_lookup() function (in this case assigned to the variable `$response`) returns an array that contains both city and state. The response looks like this:
 ```
 // zip_lookup(90210) would return
 $response = [
