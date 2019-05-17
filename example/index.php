@@ -29,7 +29,7 @@ $state = $response['state'];
     <hr>
     <form method="get">
         <div class="form-group">
-            <label for="zip">Zip City/State</label>
+            <label for="zip">Zip</label>
             <input id="zip" class="form-control" name="zip" type="number" minlength="3" value="<?php echo $zip; ?>">
             <small id="zipHelp" class="form-text text-muted">Enter your zip code.</small>
         </div>
@@ -39,7 +39,7 @@ $state = $response['state'];
     <h2>Response</h2>
     <form method="get">
         <div class="form-group">
-            <label for="zip">Zip Code</label>
+            <label for="zip">Zip</label>
             <input id="zip" class="form-control" name="zip" value="<?php echo $zip; ?>" type="number" minlength="5" readonly>
         </div>
         <div class="form-group">

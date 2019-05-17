@@ -41,7 +41,7 @@ To see an example form in action, setup a webhost with this repo and navigate to
 
 ### Screenshot
 
-![Example Form](/screenshot-form.png?raw=true "Example Form")
+![Example Form](/screenshot.png?raw=true "Example Form")
 
 ### Limitations
 
